@@ -1,4 +1,4 @@
-package com.fireyao.nio.buffer;
+package me.fireyao.nio.nio.buffer;
 
 import org.junit.Test;
 

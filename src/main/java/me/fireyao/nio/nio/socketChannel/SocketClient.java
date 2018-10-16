@@ -1,4 +1,4 @@
-package com.fireyao.nio.channel.socketChannel;
+package me.fireyao.nio.nio.socketChannel;
 
 import java.io.IOException;
 import java.net.InetAddress;
