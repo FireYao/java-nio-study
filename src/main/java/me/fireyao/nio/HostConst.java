@@ -12,6 +12,12 @@ public class HostConst {
     public final static String DELIMITER_STR = "$_";
     public final static ByteBuf DELIMITER = Unpooled.copiedBuffer(DELIMITER_STR.getBytes());
 
+    //返回给客户端的应答
+    public static String response(String msg){
+        return "Hello,"+msg+",Now is "+new java.util.Date(
+                System.currentTimeMillis()).toString() ;
+    }
+
     private static final String[] LOG_INFOS = {
             "20180912:1-machine:Send sms to 10001",
             "20180912:2-machine:Happen Exception",
