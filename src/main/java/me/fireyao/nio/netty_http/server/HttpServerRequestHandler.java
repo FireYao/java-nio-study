@@ -99,5 +99,6 @@ public class HttpServerRequestHandler extends ChannelInboundHandlerAdapter {
         response.headers().set(HttpHeaderNames.CONTENT_TYPE,
                 "text/plain;charset=UTF-8");
         ctx.writeAndFlush(response).addListener(ChannelFutureListener.CLOSE);
+
     }
 }
